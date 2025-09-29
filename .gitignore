@@ -1,0 +1,55 @@
+# Godot cache and temporary files
+.godot/
+.godot-import/
+.godot-export/
+
+# Build files
+builds/
+*.apk
+*.aab
+*.idsig
+*.apks
+
+# Keystore files (NEVER commit these!)
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# Android build files
+android/build/
+android/.gradle/
+android/local.properties
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Godot specific
+*.import
+*.translation
